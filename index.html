@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>W3 exercises</title>
+        <link rel="stylesheet" type="text/css" href="styling.css"
+    </head>
+    <body>
+        <h1>Exercises</h1>
+        <button id="t0">Generate new task</button>
+        <div>
+            <p>Task 1<br></p>
+            <span id="t1"></span><br>
+            <span id="t1a"></span>
+        </div>
+        <div>
+            <p>Task 2<br></p>
+            <button onclick="window.print()">Print this page</button>
+        </div>
+        <div>
+            <p>Task 3<br></p>
+            <span id="t3"></span>
+        </div>
+        <div>
+            <p>Task 4<br></p>
+            <span id="t4"></span>
+        </div>
+        <div>
+            <p>Task 5<br></p>
+            <span id="t5"></span>
+        </div>
+        <div>
+            <p>Task 6<br></p>
+            Check if a year is a leap year.<br>
+            <form><input type="text"  id="t6"></form><br>
+            <button id="leapcheck">Check!</button>
+            <span id="t6a"></span>
+        </div>
+        <div>
+            <p>Task 7<br></p>
+            <span id="t7"></span>
+        </div>
+        <div>
+            <p>Task 8<br></p>
+            <button id="t8">Click to play a game</button>
+            <span></span>
+        </div>
+        <div>
+            <p>Task 9<br></p>
+            <span id="t9"></span>
+        </div>
+        <div>
+            <p>Task 10<br></p>
+            <form>
+                <input type="text" id="cz1" placeholder="1st no.">
+                <input type="text" id="cz2" placeholder="2nd no."></form>
+                <button id="mnoz">Multiply</button>
+                <button id="dziel">Divide</button><br>
+                The result of the calculation is: <span id="t10"></span>
+            </form>
+            <span id="t9"></span>
+        </div>
+        <div>
+            <p>Task 11<br></p>
+            <p>The F/C & C/F calculator</p>
+            <form>
+                <input type="text" id="temp" placeholder="Enter temp. value">
+                <input type="radio" id="cel" name="unit" value="Celsius">
+                <label for="Celsius">Celsius</label>
+                <input type="radio" id="far" name="unit" value="Fahrenheit">
+                <label for="Fahrenheit">Fahrenheit</label>
+            </form>
+            <button id="conv">Convert to the opposite unit</button><br>
+        
+            <p>The converted temperature is: <span id="t11"></span></p>
+        </div>
+        <div>
+            <p>Task 12<br></p>
+            <span id="t12"></span>
+        </div>
+        <div>
+            <p>Task 13<br></p>
+            <p>Define the name of a variable</p>
+            <form>
+                <input type="text" id="varname" placeholder="Type name here">
+            </form>
+            <button id="subvarname">Create a variable</button>
+            <span id="t13"></span>
+        </div>
+        <div>
+            <p>Task 14<br></p>
+            <span>The answer is within the code.</span>
+        </div>
+        <div>
+            <p>Task 15<br></p>
+            <p>Get the difference between a given and 13</p>
+            <form>
+                <input type="text" id="giv" placeholder="Type the number">
+            </form>
+            <button id="t15cal">Calculate!</button>
+            <span id="t15"></span>
+        </div>
+        <div>
+            <p>Task 16<br></p>
+            <p>Calculate sum of two integers. If both are equal, than the result is trippled.</p>
+            <form>
+                <input type="text" id="t16a" placeholder="Type the first no.">
+                <input type="text" id="t16b" placeholder="Type the second no.">
+            </form>
+            <button id="t16cal">Calculate!</button>
+            <span id="t16"></span>
+        </div>
+        <div>
+            <p>Task 17<br></p>
+            <p>Compute the absolute difference between a number and 19. <br>If this number is greater than 19, it will return tripple absolute difference.</p>
+            <form>
+                <input type="text" id="t17a" placeholder="Type the no.">
+            </form>
+            <button id="t17cal">Compute!</button>
+            <span id="t17"></span>
+        </div>
+        <div>
+            <p>Task 18<br></p>
+            <p>Check if one of the numbers applied is 50 or if their sum is 50.</p>
+            <form>
+                <input type="text" id="t18a" placeholder="Type the first no.">
+                <input type="text" id="t18b" placeholder="Type the second no.">
+            </form>
+            <button id="t18cal">Check!</button>
+            <span id="t18"></span>
+        </div>
+        <div>
+            <p>Task 19<br></p>
+            <p>Check if given is with 20-100 range or if it is 400.</p>
+            <form>
+                <input type="text" id="t19a" placeholder="Type the no.">
+            </form>
+            <button id="t19cal">Compute!</button>
+            <span id="t19"></span>
+        </div>
+        <div>
+        <p>Task 20<br></p>
+        <p>Check if one of the numbers is positive and another one is negative.</p>
+        <form>
+            <input type="text" id="t20a" placeholder="Type the first no.">
+            <input type="text" id="t20b" placeholder="Type the second no.">
+        </form>
+        <button id="t20cal">Check!</button>
+        <span id="t20"></span>
+        </div>
+        <div>
+            <p>Task 21<br></p>
+            <p>Add Py in front of a string. If Py is already there, don't change.</p>
+            <form>
+                <input type="text" id="t21a" placeholder="Type the word to be changed">
+            </form>
+            <button id="t21cal">Add "Py"!</button>
+            <span id="t21"></span>
+        </div>
+        <div>
+            <p>Task 22<br></p>
+            <p>Select a no. of a letter that should be removed from any word</p>
+            <form>
+                <input type="text" id="t22a" placeholder="Type the word">
+                <input type="text" id="t22b" placeholder="Type the no. of letter to delete">
+            </form>
+            <button id="t22cal">Go for it!</button>
+            <span id="t22"></span>
+        </div>
+        <div>
+            <p>Task 23<br></p>
+            <p>Switch the first and last letters!</p>
+            <form>
+                <input type="text" id="t23a" placeholder="Type the word">
+            </form>
+            <button id="t23cal">Go for it!</button>
+            <span id="t23"></span>
+        </div>
+        <div>
+            <p>Task 24<br></p>
+            <p>Make a new word by taking first letter from initial word and put it both at beginning and end.</p>
+            <form>
+                <input type="text" id="t24a" placeholder="Type the word">
+            </form>
+            <button id="t24cal">Yalla!</button>
+            <span id="t24"></span>
+        </div>
+        <div>
+            <p>Task 25<br></p>
+            <p>Check whether a given positive number is a multiple of 3 or a multiple of 7.</p>
+            <form>
+                <input type="text" id="t25a" placeholder="Type the no.">
+            </form>
+            <button id="t25cal">Dajesz!</button>
+            <span id="t25"></span>
+        </div>
+        <div>
+            <p>Task 26<br></p>
+            <p>Create a string from min 3-char word by adding last 3 chars to beginning and end.</p>
+            <form>
+                <input type="text" id="t26a" placeholder="Type the word">
+            </form>
+            <button id="t26cal">Ciulej double click!</button>
+            <span id="t26"></span>
+        </div>
+        <div>
+            <p>Task 27<br></p>
+            <p>Check if your word starts with Java</p>
+            <form>
+                <input type="text" id="t27a" placeholder="Type the word">
+            </form>
+            <button id="t27cal">Use scroll over button to check!</button>
+            <span id="t27"></span>
+        </div>
+        <div>
+            <p>Task 28<br></p>
+            <p>Check if both integers are within range 50-99</p>
+            <form>
+                <input type="text" id="t28a" placeholder="Type no. 1">
+                <input type="text" id="t28b" placeholder="Type no. 2">
+            </form>
+            <button id="t28cal">Dziongo!</button>
+            <span id="t28"></span>
+        </div>
+    <script type="text/javascript" src="script.js"></script>
+    </body>
+</html>
